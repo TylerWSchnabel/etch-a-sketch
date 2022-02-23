@@ -1,0 +1,92 @@
+
+html {
+    background-image: radial-gradient(#32a873,#326ba8);
+}
+
+body {
+    text-align: center;
+}
+
+.header {
+    font-family: OCR A Std, monospace;
+    font-size: xxx-large;
+}
+
+.btns {
+    padding: 10px;
+    padding-top: 0px;
+}
+
+.controls {
+    font-size: large;
+    background-color: rgb(194, 145, 204);
+}
+
+.controls{
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: OCR A Std, monospace;
+}
+
+#colorPicker{
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    border: none;
+    
+}
+
+#all {
+    margin: auto;
+    background-color: white;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 25em;
+    background: rgb(94, 223, 169);
+    border: black solid;
+    margin-top: 1em;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: rgb(194, 145, 204);
+    cursor: pointer;
+    border: black solid;
+  }
+
+  .guide {
+    display: inline-flex;
+    padding-top: 10px;
+    text-align: center;
+    width: 25em;
+  }
+
+.bottombtns {
+    background-color: rgb(194, 145, 204);
+    font-family: OCR A Std, monospace;
+    border-color: black;
+    border:black solid;
+    border-radius: 3px;
+    margin: auto;
+    padding: 5px;
+    font-size: large;
+    
+    
+}
+
+#reset {
+    width: 5em;
+    margin-right: .5em;
+}
+
+#squareCounter {
+    width: 12em;
+    margin-left: .5em;
+}
